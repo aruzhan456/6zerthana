@@ -1,0 +1,9 @@
+name:Aruzhan CI
+on: [push]
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello Aruzhan
+        run: echo "Hello, aruzhan"
